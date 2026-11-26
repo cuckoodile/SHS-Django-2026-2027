@@ -6,6 +6,9 @@
     - for
     - while
     - loop controls
+        - else
+        - continue
+        - break
 
 2. Iterators
     - range
