@@ -1,37 +1,21 @@
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+names = ["Ana", "Ben", "Cara", "Dan", "Ella"]
 
-for x in fruits:
-  if "a" in x:
-    newlist.append(x)
+quiz_scores = [ [85, 90, 78], [60, 55, 70], [92, 88, 95], [45, 50, 40], [75, 80, 70], ]
 
-# print(newlist)
+exam_scores = [88, 58, 94, 50, 72]
 
-# -----------------------------
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# QUIZ_WEIGHT = 0.40 EXAM_WEIGHT = 0.60 PASSING_GRADE = 60
 
-newlist = [x for x in fruits if "a" in x]
+def compute_quiz_average(scores): # TODO pass
 
-# fruits.filter((x) => x.includes('a'))
+def compute_final_grades(names, quizzes, exams): # TODO pass
 
-# print(newlist)
+def print_rankings(results): # TODO pass
 
-# ----------------------------
+def find_at_risk(results, passing): # TODO pass
 
-i = 1
-while i <= 10:
-    # print(i)
-    i += 1
+def check_class_status(results, passing): # TODO pass
 
-# -----------------------------
-# range(start=0, stop=10 (exclusive), steps=None)
-# print(range(10))
-# print(list(range(1, 10)))
+def main(): # TODO pass
 
-# -----------------------------
-
-a = [1, 2, 3, 4, 5]
-b = ['a', 'b', 'c', 'd', 'e']
-c = ['!', '@', ',', '.', '-']
-
-print(list(zip(a, b, c)))
+if name == "main": main()
