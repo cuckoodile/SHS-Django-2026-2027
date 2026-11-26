@@ -12,6 +12,7 @@
     - zip
     - enumerate
     - count
+    - sort
 
 3. Comprehensions
 
