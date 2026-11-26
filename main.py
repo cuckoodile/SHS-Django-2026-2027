@@ -25,5 +25,13 @@ while i <= 10:
 
 # -----------------------------
 # range(start=0, stop=10 (exclusive), steps=None)
-print(range(10))
-print(list(range(1, 10)))
+# print(range(10))
+# print(list(range(1, 10)))
+
+# -----------------------------
+
+a = [1, 2, 3, 4, 5]
+b = ['a', 'b', 'c', 'd', 'e']
+c = ['!', '@', ',', '.', '-']
+
+print(list(zip(a, b, c)))
